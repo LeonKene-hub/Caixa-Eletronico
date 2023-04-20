@@ -69,7 +69,12 @@ do
 
 void conta()
 {
-    Console.WriteLine(@$"
+int deposito = 0;
+int saque = 0;
+bool fechar = false; 
+    do
+    {
+        Console.WriteLine(@$"
 | ola {usuario[pos - 1]} |
 
 saldo: {saldo}
@@ -78,5 +83,27 @@ saldo: {saldo}
 (2) Saque
 (0) sair
 ");
-    
+
+string escolha = Console.ReadLine();
+switch (escolha)
+{
+    case "2":
+        Console.WriteLine($"Quanto deseja depositar?");
+        saque = int.Parse(Console.ReadLine());
+        saldo = saldo - saque;
+        break;
+    case "1":
+        Console.WriteLine($"Quanto deseja sacar?");
+        deposito = int.Parse(Console.ReadLine());
+        saldo = saldo + deposito;
+        break;
+    case "0":
+        fechar = true;
+        break;
+    default:
+        break;
+}
+
+
+    } while (fechar == false);
 }

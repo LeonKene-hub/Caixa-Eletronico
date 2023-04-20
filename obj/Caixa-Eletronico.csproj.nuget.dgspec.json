@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\56026708820\\Desktop\\Caixa-Eletronico\\Caixa-Eletronico.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Área de Trabalho\\Caixa-Eletronico\\Caixa-Eletronico.csproj": {}
   },
   "projects": {
-    "C:\\Users\\56026708820\\Desktop\\Caixa-Eletronico\\Caixa-Eletronico.csproj": {
+    "C:\\Users\\User\\OneDrive\\Área de Trabalho\\Caixa-Eletronico\\Caixa-Eletronico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\56026708820\\Desktop\\Caixa-Eletronico\\Caixa-Eletronico.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\Caixa-Eletronico\\Caixa-Eletronico.csproj",
         "projectName": "Caixa-Eletronico",
-        "projectPath": "C:\\Users\\56026708820\\Desktop\\Caixa-Eletronico\\Caixa-Eletronico.csproj",
-        "packagesPath": "C:\\Users\\56026708820\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\56026708820\\Desktop\\Caixa-Eletronico\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\Caixa-Eletronico\\Caixa-Eletronico.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\Caixa-Eletronico\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\56026708820\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
